@@ -83,7 +83,20 @@ function detectPoseInRealTime(video, net) {
 
 
 
-            drawLine(toTuple(keypoints[0].position), toTuple(keypoints[1].position), COLOR,1, ctx);
+            // drawLine(toTuple(keypoints[0].position), toTuple(keypoints[1].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[5].position), toTuple(keypoints[7].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[7].position), toTuple(keypoints[9].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[6].position), toTuple(keypoints[8].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[8].position), toTuple(keypoints[10].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[5].position), toTuple(keypoints[6].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[5].position), toTuple(keypoints[11].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[6].position), toTuple(keypoints[12].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[11].position), toTuple(keypoints[12].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[11].position), toTuple(keypoints[13].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[13].position), toTuple(keypoints[15].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[12].position), toTuple(keypoints[14].position), COLOR,1, ctx);
+            drawLine(toTuple(keypoints[14].position), toTuple(keypoints[16].position), COLOR,1, ctx);
+
 
 
 
